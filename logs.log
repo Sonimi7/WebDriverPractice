@@ -1,0 +1,5 @@
+2024-01-18 23:40:04,194 INFO KioskTest [main] Start driver
+2024-01-18 23:40:08,350 INFO KioskTest [main] Stop driver
+2024-01-18 23:42:30,493 INFO KioskTest [main] Start driver
+2024-01-18 23:42:33,424 INFO KioskTest [main] Image is visibility
+2024-01-18 23:42:34,685 INFO KioskTest [main] Stop driver
