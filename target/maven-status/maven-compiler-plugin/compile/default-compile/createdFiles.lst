@@ -1,4 +1,0 @@
-exceptions/BrowserNotSupportedException.class
-org/example/Main.class
-factory/DriverFactory.class
-tools/WaitTools.class
