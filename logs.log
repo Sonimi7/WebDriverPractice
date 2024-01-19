@@ -1,0 +1,95 @@
+2024-01-19 20:16:27,914 INFO FullscreenTest [main] Start driver
+2024-01-19 20:16:27,922 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 20:16:30,253 INFO FullscreenTest [main] Stop driver
+2024-01-19 20:25:34,699 INFO FullscreenTest [main] Start driver
+2024-01-19 20:25:34,710 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 20:25:36,657 INFO FullscreenTest [main] Stop driver
+2024-01-19 20:30:14,963 INFO FullscreenTest [main] Start driver
+2024-01-19 20:30:14,976 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 20:30:16,908 INFO FullscreenTest [main] Stop driver
+2024-01-19 20:31:13,226 INFO FullscreenTest [main] Start driver
+2024-01-19 20:31:13,238 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 20:31:16,828 INFO FullscreenTest [main] Stop driver
+2024-01-19 20:33:21,637 INFO FullscreenTest [main] Start driver
+2024-01-19 20:33:21,650 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 20:33:24,300 INFO FullscreenTest [main] Stop driver
+2024-01-19 20:34:21,608 INFO FullscreenTest [main] Start driver
+2024-01-19 20:34:21,622 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 20:34:23,568 INFO FullscreenTest [main] Check authorization popup status. Continue the test
+2024-01-19 20:34:23,683 INFO FullscreenTest [main] Stop driver
+2024-01-19 20:36:39,443 INFO FullscreenTest [main] Start driver
+2024-01-19 20:36:39,455 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 20:36:42,165 INFO FullscreenTest [main] Stop driver
+2024-01-19 20:40:26,339 INFO FullscreenTest [main] Start driver
+2024-01-19 20:40:43,950 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 20:41:07,028 INFO FullscreenTest [main] Check authorization popup status. Continue the test
+2024-01-19 20:41:17,322 INFO FullscreenTest [main] Stop driver
+2024-01-19 20:42:20,248 INFO FullscreenTest [main] Start driver
+2024-01-19 20:42:43,246 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 20:43:07,872 INFO FullscreenTest [main] Check authorization popup status. Continue the test
+2024-01-19 20:43:18,500 INFO FullscreenTest [main] Stop driver
+2024-01-19 20:44:34,549 INFO FullscreenTest [main] Start driver
+2024-01-19 20:45:09,826 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 20:45:25,719 INFO FullscreenTest [main] Check authorization popup status. Continue the test
+2024-01-19 20:52:12,587 INFO FullscreenTest [main] Start driver
+2024-01-19 20:52:36,649 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 20:52:59,573 INFO FullscreenTest [main] Check authorization popup status. Continue the test
+2024-01-19 20:52:59,979 INFO FullscreenTest [main] Stop driver
+2024-01-19 20:55:13,531 INFO FullscreenTest [main] Start driver
+2024-01-19 20:55:36,469 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 20:56:08,030 INFO FullscreenTest [main] Check authorization popup status. Continue the test
+2024-01-19 20:56:17,855 INFO FullscreenTest [main] Enter authorization data. Continue the test
+2024-01-19 20:56:31,601 INFO FullscreenTest [main] Stop driver
+2024-01-19 21:01:22,728 INFO FullscreenTest [main] Start driver
+2024-01-19 21:01:58,021 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 21:02:31,363 INFO FullscreenTest [main] Check authorization popup status. Continue the test
+2024-01-19 21:02:41,031 INFO FullscreenTest [main] Enter authorization data. Continue the test
+2024-01-19 21:03:28,408 INFO FullscreenTest [main] Check successful auth. Continue the test
+2024-01-19 21:03:38,722 INFO FullscreenTest [main] Stop driver
+2024-01-19 21:08:53,689 INFO FullscreenTest [main] Start driver
+2024-01-19 21:09:23,279 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 21:10:00,441 INFO FullscreenTest [main] Check authorization popup status. Continue the test
+2024-01-19 21:10:10,525 INFO FullscreenTest [main] Enter authorization data. Continue the test
+2024-01-19 21:10:51,363 INFO FullscreenTest [main] Check successful auth. Continue the test
+2024-01-19 21:10:51,773 INFO FullscreenTest [main] Stop driver
+2024-01-19 21:16:01,235 INFO FullscreenTest [main] Start driver
+2024-01-19 21:16:07,987 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 21:16:12,570 INFO FullscreenTest [main] Check authorization popup status. Continue the test
+2024-01-19 21:16:24,001 INFO FullscreenTest [main] Enter authorization data. Continue the test
+2024-01-19 21:17:06,268 INFO FullscreenTest [main] Check successful auth. Continue the test
+2024-01-19 21:17:16,675 INFO FullscreenTest [main] Stop driver
+2024-01-19 21:19:50,224 INFO FullscreenTest [main] Start driver
+2024-01-19 21:20:52,430 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 21:21:06,035 INFO FullscreenTest [main] Check authorization popup status. Continue the test
+2024-01-19 21:21:12,771 INFO FullscreenTest [main] Enter authorization data. Continue the test
+2024-01-19 21:21:56,806 INFO FullscreenTest [main] Check successful auth. Continue the test
+2024-01-19 21:22:09,306 INFO FullscreenTest [main] Cookies[auth_token_expires=1800296526; expires=сб, 22 февр. 2025 09:22:06 MSK; path=/; domain=.otus.ru; sameSite=Lax, tmr_detect=0%7C1705688465698; expires=сб, 20 янв. 2024 09:21:05 MSK; path=/; domain=otus.ru; sameSite=Lax, advcake_track_id=c75f0281-25b9-17eb-5daa-715d36ea27dd; expires=вс, 18 февр. 2024 09:20:22 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, oid=f01d16037831d44c488278b644b8a525; expires=сб, 22 февр. 2025 09:22:06 MSK; path=/; domain=.otus.ru; sameSite=Lax, sessionid=y1uywclqw99c0iyjqafd2d0yzrq9wwhl; expires=чт, 18 апр. 2024 09:22:05 MSK; path=/; domain=otus.ru;secure;; sameSite=Lax, _ym_d=1705688448; expires=сб, 18 янв. 2025 09:20:48 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _tt_enable_cookie=1; expires=ср, 12 февр. 2025 09:20:44 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ym_visorc=b; expires=пт, 19 янв. 2024 09:51:12 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, tmr_lvid=d9ae9c476b2b20969e7eebbc37b4a40a; expires=вт, 17 дек. 2024 09:20:22 MSK; path=/; domain=.otus.ru; sameSite=Lax, utm=utm_source%3Dtypein%26utm_medium%3Ddirect; expires=сб, 22 февр. 2025 09:22:06 MSK; path=/; domain=.otus.ru; sameSite=Lax, tmr_lvidTS=1705688422635; expires=вт, 17 дек. 2024 09:20:22 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ym_uid=1705688448286882093; expires=сб, 18 янв. 2025 09:20:48 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _ym_isad=2; expires=сб, 20 янв. 2024 05:20:53 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _ga=GA1.1.248743862.1705688430; expires=сб, 22 февр. 2025 09:20:32 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ga_N2GWLW9R5Z=GS1.1.1705688427.1.0.1705688427.60.0.0; expires=сб, 22 февр. 2025 09:20:32 MSK; path=/; domain=.otus.ru; sameSite=Lax, auth_token=jeApxpcLNNayx3013h2LxA; expires=сб, 22 февр. 2025 09:22:06 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ttp=36J01Wfu8r11dsWLGLU2uLeluz1; expires=ср, 12 февр. 2025 09:20:45 MSK; path=/; domain=.otus.ru; sameSite=Lax, advcake_session_id=c6fcbf77-f817-1b6d-88bb-715f3aa10b04; expires=вс, 18 февр. 2024 09:20:22 MSK; path=/; domain=.otus.ru;secure;; sameSite=None]
+2024-01-19 21:22:09,668 INFO FullscreenTest [main] Stop driver
+2024-01-19 21:23:05,872 INFO FullscreenTest [main] Start driver
+2024-01-19 21:23:38,086 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 21:24:47,217 INFO FullscreenTest [main] Check authorization popup status. Continue the test
+2024-01-19 21:25:11,988 INFO FullscreenTest [main] Enter authorization data. Continue the test
+2024-01-19 21:26:08,708 INFO FullscreenTest [main] Check successful auth. Continue the test
+2024-01-19 22:05:56,561 INFO FullscreenTest [main] Start driver
+2024-01-19 22:06:27,300 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 22:07:28,132 INFO FullscreenTest [main] Check authorization popup status. Continue the test
+2024-01-19 22:09:16,855 INFO FullscreenTest [main] Enter authorization data. Continue the test
+2024-01-19 22:09:27,542 INFO FullscreenTest [main] Check successful auth. Continue the test
+2024-01-19 22:10:32,906 INFO FullscreenTest [main] Stop driver
+2024-01-19 22:14:36,621 INFO FullscreenTest [main] Start driver
+2024-01-19 22:15:28,409 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 22:15:42,373 INFO FullscreenTest [main] Check authorization popup status. Continue the test
+2024-01-19 22:16:27,938 INFO FullscreenTest [main] Enter authorization data. Continue the test
+2024-01-19 22:16:30,180 INFO FullscreenTest [main] Check successful auth. Continue the test
+2024-01-19 22:16:39,213 INFO FullscreenTest [main] Stop driver
+2024-01-19 22:20:55,517 INFO FullscreenTest [main] Start driver
+2024-01-19 22:21:16,832 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 22:22:24,970 INFO FullscreenTest [main] Check authorization popup status. Continue the test
+2024-01-19 22:22:49,309 INFO FullscreenTest [main] Stop driver
+2024-01-19 22:24:02,908 INFO FullscreenTest [main] Start driver
+2024-01-19 22:24:33,566 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-19 22:24:44,929 INFO FullscreenTest [main] Check authorization popup status. Continue the test
+2024-01-19 22:25:19,155 INFO FullscreenTest [main] Enter authorization data. Continue the test
+2024-01-19 22:25:21,005 INFO FullscreenTest [main] Check successful auth. Continue the test
+2024-01-19 22:25:28,352 INFO FullscreenTest [main] Cookies[auth_token_expires=1800300327; expires=сб, 22 февр. 2025 10:25:27 MSK; path=/; domain=.otus.ru; sameSite=Lax, tmr_detect=0%7C1705692287699; expires=сб, 20 янв. 2024 10:24:47 MSK; path=/; domain=otus.ru; sameSite=Lax, advcake_track_id=9b0df398-52b3-a93b-accd-758b320dc0e6; expires=вс, 18 февр. 2024 10:24:17 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, oid=f01d16037831d44c488278b644b8a525; expires=сб, 22 февр. 2025 10:25:27 MSK; path=/; domain=.otus.ru; sameSite=Lax, sessionid=2hbe08xaue5b16a8r0u2o59nirycmwzn; expires=чт, 18 апр. 2024 10:25:26 MSK; path=/; domain=otus.ru;secure;; sameSite=Lax, _ym_d=1705692263; expires=сб, 18 янв. 2025 10:24:23 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _tt_enable_cookie=1; expires=ср, 12 февр. 2025 10:24:30 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ym_visorc=b; expires=пт, 19 янв. 2024 10:54:48 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, tmr_lvid=a99da6e9acfea8a4eb89d442ab94a843; expires=вт, 17 дек. 2024 10:24:17 MSK; path=/; domain=.otus.ru; sameSite=Lax, utm=utm_source%3Dtypein%26utm_medium%3Ddirect; expires=сб, 22 февр. 2025 10:25:27 MSK; path=/; domain=.otus.ru; sameSite=Lax, tmr_lvidTS=1705692257853; expires=вт, 17 дек. 2024 10:24:17 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ym_uid=1705692263498391334; expires=сб, 18 янв. 2025 10:24:23 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _ym_isad=2; expires=сб, 20 янв. 2024 06:24:29 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _ga=GA1.1.199103662.1705692266; expires=сб, 22 февр. 2025 10:24:26 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ga_N2GWLW9R5Z=GS1.1.1705692261.1.0.1705692261.60.0.0; expires=сб, 22 февр. 2025 10:24:26 MSK; path=/; domain=.otus.ru; sameSite=Lax, auth_token=I4b7tr5o5fI3s8bwJFM1OQ; expires=сб, 22 февр. 2025 10:25:27 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ttp=602Luc_D1PO_ZArho044k0YcX-9; expires=ср, 12 февр. 2025 10:24:30 MSK; path=/; domain=.otus.ru; sameSite=Lax, advcake_session_id=da72bf38-702b-3816-4567-7c59c583cbcc; expires=вс, 18 февр. 2024 10:24:17 MSK; path=/; domain=.otus.ru;secure;; sameSite=None]
+2024-01-19 22:25:28,516 INFO FullscreenTest [main] Stop driver

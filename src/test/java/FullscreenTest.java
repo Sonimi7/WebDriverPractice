@@ -12,6 +12,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import tools.WaitTools;
 
+import java.time.Duration;
+
 public class FullscreenTest {
 
     Logger logger = (Logger) LogManager.getLogger(FullscreenTest.class);
@@ -42,6 +44,7 @@ public class FullscreenTest {
     public void authViewCookie() {
         String signInBtnLocator = "//button[text()='Войти']";
 
+        waitTools.waitForCondition(ExpectedConditions.presenceOfElementLocated(By.cssSelector("section > a[href*='tel']")));
         logger.info("Button sign in is visibility. Continue the test");
         waitTools.waitForCondition(ExpectedConditions
                 .presenceOfElementLocated(By.xpath(signInBtnLocator)));
@@ -54,7 +57,7 @@ public class FullscreenTest {
         String authPopupSelector = "#__PORTAL__ > div";
         Assertions.assertTrue(waitTools
                 .waitForCondition(ExpectedConditions.not(ExpectedConditions
-                                .presenceOfElementLocated(By.cssSelector(authPopupSelector)))), "Authorization popup status error");
+                                .visibilityOfElementLocated(By.cssSelector(authPopupSelector)))), "Authorization popup status error");
 
         signInBtn.click();
 
@@ -63,7 +66,6 @@ public class FullscreenTest {
                 .waitForCondition(ExpectedConditions
                         .visibilityOf(authPopupEl)), "Authorization popup status error");
 
-        logger.info("Enter authorization data. Continue the test");
         driver.findElement(By.xpath("//div[./input[@name='email']]")).click();
 
         WebElement emailInputField = driver.findElement(By.cssSelector("input[name='email']"));
@@ -74,13 +76,14 @@ public class FullscreenTest {
         driver.findElement(By.xpath("//div[./input[@type='password']]")).click();
         waitTools.waitForCondition(ExpectedConditions.stalenessOf(passwordInputField));
         passwordInputField.sendKeys(password);
+        logger.info("Enter authorization data. Continue the test");
 
         driver.findElement(By.cssSelector("#__PORTAL__ button")).click();
 
         logger.info("Check successful auth. Continue the test");
         Assertions.assertTrue(waitTools
-                .waitForCondition(ExpectedConditions.not(ExpectedConditions
-                        .presenceOfElementLocated(By.xpath(signInBtnLocator)))));
+                .waitForCondition(ExpectedConditions
+                        .presenceOfElementLocated(By.cssSelector("img[src*='blue-owl']"))));
 
         String cookies = driver.manage().getCookies().toString();
         logger.info("Cookies" + cookies);
