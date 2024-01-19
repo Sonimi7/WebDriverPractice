@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="HeadlessModeTest" time="32.739" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="HeadlessModeTest" time="30.636" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="webdriver.chrome.driver" value="/Users/user/.cache/selenium/chromedriver/mac64/120.0.6099.109/chromedriver"/>
@@ -72,7 +72,14 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="searchResult" classname="HeadlessModeTest" time="32.712">
+  <testcase name="searchResult" classname="HeadlessModeTest" time="30.105">
+    <system-out><![CDATA[&amp#27;[37m[19:59:46.851] | INFO  | main                             | HeadlessModeTest                 | Start driver
+&amp#27;[m&amp#27;[37m[19:59:46.860] | INFO  | main                             | HeadlessModeTest                 | Enter data to search
+&amp#27;[m&amp#27;[37m[20:00:05.144] | INFO  | main                             | HeadlessModeTest                 | Wait results search
+&amp#27;[m&amp#27;[37m[20:00:05.152] | INFO  | main                             | HeadlessModeTest                 | Get text first link
+&amp#27;[m&amp#27;[37m[20:00:05.237] | INFO  | main                             | HeadlessModeTest                 | Check text
+&amp#27;[m&amp#27;[37m[20:00:05.342] | INFO  | main                             | HeadlessModeTest                 | Stop driver
+&amp#27;[m]]></system-out>
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
