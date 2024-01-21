@@ -16,7 +16,7 @@ import java.time.Duration;
 
 public class FullscreenTest {
 
-    Logger logger = (Logger) LogManager.getLogger(FullscreenTest.class);
+    private Logger logger = (Logger) LogManager.getLogger(FullscreenTest.class);
 
     private String authUrl = System.getProperty("auth.url");
     private String login = System.getProperty("login");

@@ -13,7 +13,7 @@ import tools.WaitTools;
 import java.util.List;
 
 public class KioskTest {
-    Logger logger = (Logger) LogManager.getLogger(KioskTest.class);
+    private Logger logger = (Logger) LogManager.getLogger(KioskTest.class);
     private String layoutUrl = System.getProperty("layout.url");
     private WebDriver driver;
     private WaitTools waitTools;

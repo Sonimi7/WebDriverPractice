@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import tools.WaitTools;
 
 public class HeadlessModeTest {
-    Logger logger = (Logger) LogManager.getLogger(HeadlessModeTest.class);
+    private Logger logger = (Logger) LogManager.getLogger(HeadlessModeTest.class);
 
     private String duckUrl = System.getProperty("duck.url");
     private WebDriver driver;
