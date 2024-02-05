@@ -1,6 +1,8 @@
 package factory;
 
 import exceptions.BrowserNotSupportedException;
+import factory.impl.ChromeDriverSettings;
+import factory.impl.IDriverSettings;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
@@ -20,12 +22,10 @@ public class DriverFactory {
 
     public WebDriver create() {
         browserName = browserName.toLowerCase();
+
         switch (browserName) {
             case "chrome": {
-                WebDriverManager.chromedriver().setup();
-                ChromeOptions chromeOptions = new ChromeOptions();
-                chromeOptions.addArguments(arguments);
-                return new ChromeDriver(chromeOptions);
+                return new ChromeDriver((ChromeOptions)new ChromeDriverSettings().settings());
             }
         }
         throw new BrowserNotSupportedException(browserName);

@@ -1,3 +1,5 @@
 HeadlessModeTest.class
 FullscreenTest.class
+personalArea/PersonalAreaTest.class
 KioskTest.class
+courses/CoursesTest.class

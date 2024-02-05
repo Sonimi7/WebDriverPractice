@@ -2,6 +2,6 @@ package factory.impl;
 
 import org.openqa.selenium.remote.AbstractDriverOptions;
 
-public interface IDriver {
+public interface IDriverSettings {
     AbstractDriverOptions settings();
 }

@@ -93,3 +93,201 @@
 2024-01-19 22:25:21,005 INFO FullscreenTest [main] Check successful auth. Continue the test
 2024-01-19 22:25:28,352 INFO FullscreenTest [main] Cookies[auth_token_expires=1800300327; expires=сб, 22 февр. 2025 10:25:27 MSK; path=/; domain=.otus.ru; sameSite=Lax, tmr_detect=0%7C1705692287699; expires=сб, 20 янв. 2024 10:24:47 MSK; path=/; domain=otus.ru; sameSite=Lax, advcake_track_id=9b0df398-52b3-a93b-accd-758b320dc0e6; expires=вс, 18 февр. 2024 10:24:17 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, oid=f01d16037831d44c488278b644b8a525; expires=сб, 22 февр. 2025 10:25:27 MSK; path=/; domain=.otus.ru; sameSite=Lax, sessionid=2hbe08xaue5b16a8r0u2o59nirycmwzn; expires=чт, 18 апр. 2024 10:25:26 MSK; path=/; domain=otus.ru;secure;; sameSite=Lax, _ym_d=1705692263; expires=сб, 18 янв. 2025 10:24:23 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _tt_enable_cookie=1; expires=ср, 12 февр. 2025 10:24:30 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ym_visorc=b; expires=пт, 19 янв. 2024 10:54:48 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, tmr_lvid=a99da6e9acfea8a4eb89d442ab94a843; expires=вт, 17 дек. 2024 10:24:17 MSK; path=/; domain=.otus.ru; sameSite=Lax, utm=utm_source%3Dtypein%26utm_medium%3Ddirect; expires=сб, 22 февр. 2025 10:25:27 MSK; path=/; domain=.otus.ru; sameSite=Lax, tmr_lvidTS=1705692257853; expires=вт, 17 дек. 2024 10:24:17 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ym_uid=1705692263498391334; expires=сб, 18 янв. 2025 10:24:23 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _ym_isad=2; expires=сб, 20 янв. 2024 06:24:29 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _ga=GA1.1.199103662.1705692266; expires=сб, 22 февр. 2025 10:24:26 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ga_N2GWLW9R5Z=GS1.1.1705692261.1.0.1705692261.60.0.0; expires=сб, 22 февр. 2025 10:24:26 MSK; path=/; domain=.otus.ru; sameSite=Lax, auth_token=I4b7tr5o5fI3s8bwJFM1OQ; expires=сб, 22 февр. 2025 10:25:27 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ttp=602Luc_D1PO_ZArho044k0YcX-9; expires=ср, 12 февр. 2025 10:24:30 MSK; path=/; domain=.otus.ru; sameSite=Lax, advcake_session_id=da72bf38-702b-3816-4567-7c59c583cbcc; expires=вс, 18 февр. 2024 10:24:17 MSK; path=/; domain=.otus.ru;secure;; sameSite=None]
 2024-01-19 22:25:28,516 INFO FullscreenTest [main] Stop driver
+2024-01-22 10:49:43,217 INFO FullscreenTest [main] Start driver
+2024-01-22 10:50:02,092 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-22 10:50:33,256 INFO FullscreenTest [main] Check authorization popup status. Continue the test
+2024-01-22 10:51:13,020 INFO FullscreenTest [main] Enter authorization data. Continue the test
+2024-01-22 10:51:17,023 INFO FullscreenTest [main] Check successful auth. Continue the test
+2024-01-22 10:51:36,720 INFO FullscreenTest [main] Cookies[auth_token_expires=1800517891; expires=вт, 25 февр. 2025 10:51:31 MSK; path=/; domain=.otus.ru; sameSite=Lax, tmr_detect=0%7C1705909840063; expires=вт, 23 янв. 2024 10:50:40 MSK; path=/; domain=otus.ru; sameSite=Lax, advcake_track_id=104d74dc-5f50-41cb-a39a-ad584b685851; expires=ср, 21 февр. 2024 10:49:58 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, oid=f01d16037831d44c488278b644b8a525; expires=вт, 25 февр. 2025 10:51:31 MSK; path=/; domain=.otus.ru; sameSite=Lax, sessionid=y5y34y55zkk3aybvjw6nxztakew6a6iu; expires=вс, 21 апр. 2024 10:51:23 MSK; path=/; domain=otus.ru;secure;; sameSite=Lax, _ym_d=1705909806; expires=вт, 21 янв. 2025 10:50:06 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _tt_enable_cookie=1; expires=сб, 15 февр. 2025 10:50:09 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ym_visorc=b; expires=пн, 22 янв. 2024 11:20:47 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, tmr_lvid=ad8be86e6e48fb75811fe736b50ffe68; expires=пт, 20 дек. 2024 10:49:58 MSK; path=/; domain=.otus.ru; sameSite=Lax, utm=utm_source%3Dtypein%26utm_medium%3Ddirect; expires=вт, 25 февр. 2025 10:51:31 MSK; path=/; domain=.otus.ru; sameSite=Lax, tmr_lvidTS=1705909798726; expires=пт, 20 дек. 2024 10:49:58 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ym_uid=1705909806283703885; expires=вт, 21 янв. 2025 10:50:06 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _ym_isad=1; expires=вт, 23 янв. 2024 06:50:13 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _ga=GA1.1.1138752431.1705909802; expires=вт, 25 февр. 2025 10:50:03 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ga_N2GWLW9R5Z=GS1.1.1705909801.1.0.1705909801.60.0.0; expires=вт, 25 февр. 2025 10:50:02 MSK; path=/; domain=.otus.ru; sameSite=Lax, auth_token=Y8UUiBhzuo6G8283jdBAQQ; expires=вт, 25 февр. 2025 10:51:31 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ttp=7dtW9D2xuq0tSyFvnbmiYXl9K4c; expires=сб, 15 февр. 2025 10:50:09 MSK; path=/; domain=.otus.ru; sameSite=Lax, advcake_session_id=b45bbb63-f06a-b553-ec73-bfa600e13b2c; expires=ср, 21 февр. 2024 10:49:58 MSK; path=/; domain=.otus.ru;secure;; sameSite=None]
+2024-01-22 10:51:36,827 INFO FullscreenTest [main] Stop driver
+2024-01-22 10:51:47,047 INFO KioskTest [main] Start driver
+2024-01-22 10:51:49,689 INFO KioskTest [main] Image is visibility. Continue the test
+2024-01-22 10:52:01,155 INFO KioskTest [main] Popup is visibility. Continue the test
+2024-01-22 10:52:11,655 INFO KioskTest [main] Test passed
+2024-01-22 10:52:11,747 INFO KioskTest [main] Stop driver
+2024-01-22 10:52:21,353 INFO HeadlessModeTest [main] Start driver
+2024-01-22 10:52:21,354 INFO HeadlessModeTest [main] Enter data to search
+2024-01-22 10:52:37,961 INFO HeadlessModeTest [main] Wait results search
+2024-01-22 10:52:48,428 INFO HeadlessModeTest [main] Get text first link
+2024-01-22 10:52:48,527 INFO HeadlessModeTest [main] Check text
+2024-01-22 10:52:48,609 INFO HeadlessModeTest [main] Stop driver
+2024-01-29 19:36:47,190 INFO FullscreenTest [main] Stop driver
+2024-01-29 19:36:47,197 INFO KioskTest [main] Stop driver
+2024-01-29 19:36:47,200 INFO HeadlessModeTest [main] Stop driver
+2024-01-29 19:39:48,871 INFO FullscreenTest [main] Stop driver
+2024-01-29 19:39:48,876 INFO KioskTest [main] Stop driver
+2024-01-29 19:39:48,880 INFO HeadlessModeTest [main] Stop driver
+2024-01-31 17:10:00,260 INFO FullscreenTest [main] Stop driver
+2024-01-31 17:10:00,266 INFO KioskTest [main] Stop driver
+2024-01-31 17:10:00,271 INFO HeadlessModeTest [main] Stop driver
+2024-01-31 17:56:36,641 INFO FullscreenTest [main] Stop driver
+2024-01-31 17:56:36,645 INFO KioskTest [main] Stop driver
+2024-01-31 17:56:36,650 INFO HeadlessModeTest [main] Stop driver
+2024-01-31 17:57:09,002 INFO FullscreenTest [main] Stop driver
+2024-01-31 17:57:09,009 INFO KioskTest [main] Stop driver
+2024-01-31 17:57:09,015 INFO HeadlessModeTest [main] Stop driver
+2024-01-31 19:05:54,336 INFO FullscreenTest [main] Start driver
+2024-01-31 19:06:06,336 INFO FullscreenTest [main] Button sign in is visibility. Continue the test
+2024-01-31 19:06:44,450 INFO FullscreenTest [main] Stop driver
+2024-01-31 19:06:49,341 INFO KioskTest [main] Start driver
+2024-01-31 19:06:49,427 INFO KioskTest [main] Stop driver
+2024-01-31 19:07:06,351 INFO HeadlessModeTest [main] Start driver
+2024-01-31 19:07:06,351 INFO HeadlessModeTest [main] Enter data to search
+2024-02-03 16:42:15,862 INFO p.PersonalAreaTest [main] Start driver
+2024-02-03 16:42:21,407 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-03 16:44:28,360 INFO p.PersonalAreaTest [main] Start driver
+2024-02-03 16:44:34,835 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-03 16:45:30,161 INFO p.PersonalAreaTest [main] Start driver
+2024-02-03 16:45:35,836 INFO p.PersonalAreaTest [main] 1
+2024-02-03 16:45:35,928 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-03 16:48:53,191 INFO p.PersonalAreaTest [main] Start driver
+2024-02-03 16:48:59,064 INFO p.PersonalAreaTest [main] 1
+2024-02-03 16:48:59,153 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-03 16:54:55,420 INFO c.CoursesTest [main] Start driver
+2024-02-03 16:55:27,336 INFO c.CoursesTest [main] 1
+2024-02-03 16:55:27,427 INFO c.CoursesTest [main] Stop driver
+2024-02-03 16:59:30,603 INFO c.CoursesTest [main] Start driver
+2024-02-03 16:59:36,584 INFO c.CoursesTest [main] 1
+2024-02-03 16:59:36,680 INFO c.CoursesTest [main] Stop driver
+2024-02-03 17:01:04,066 INFO c.CoursesTest [main] Start driver
+2024-02-03 17:01:09,413 INFO c.CoursesTest [main] 1
+2024-02-03 17:01:09,504 INFO c.CoursesTest [main] Stop driver
+2024-02-03 17:50:01,272 INFO p.PersonalAreaTest [main] Start driver
+2024-02-03 17:50:04,115 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-03 17:50:43,403 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-03 17:50:53,827 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-03 17:52:45,074 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-03 18:30:41,239 INFO p.PersonalAreaTest [main] Start driver
+2024-02-03 18:30:44,043 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-03 18:31:29,197 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-03 18:31:45,857 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-03 18:34:30,701 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-03 21:06:57,310 INFO p.PersonalAreaTest [main] Start driver
+2024-02-03 21:07:00,355 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-03 21:07:46,666 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-03 21:08:03,072 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-03 21:10:29,185 INFO p.PersonalAreaTest [main] Start driver
+2024-02-03 21:10:32,360 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-03 21:11:16,419 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-03 21:11:36,103 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-03 21:15:19,280 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-03 21:37:57,573 INFO p.PersonalAreaTest [main] Start driver
+2024-02-03 21:38:00,445 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-03 21:38:44,373 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-03 21:39:00,505 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-03 21:39:56,713 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-03 21:42:12,531 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-03 22:36:05,740 INFO p.PersonalAreaTest [main] Start driver
+2024-02-03 22:36:09,285 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-03 22:36:48,293 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-03 22:37:06,343 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-03 22:37:56,358 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-03 22:40:11,187 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-03 22:40:56,465 INFO p.PersonalAreaTest [main] Start driver
+2024-02-03 22:40:59,649 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-03 22:41:42,376 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-03 22:41:52,672 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-03 22:42:39,107 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-03 22:44:12,935 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-04 19:46:22,213 INFO p.PersonalAreaTest [main] Start driver
+2024-02-04 19:46:25,819 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-04 19:47:10,877 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-04 19:47:21,300 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-04 19:48:06,756 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-04 19:49:34,355 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-04 20:12:27,248 INFO p.PersonalAreaTest [main] Start driver
+2024-02-04 20:12:30,713 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-04 20:13:14,931 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-04 20:13:25,409 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-04 20:14:10,262 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-04 20:14:50,850 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-04 20:31:07,361 INFO c.CoursesTest [main] Start driver
+2024-02-04 20:31:11,698 INFO c.CoursesTest [main] Stop driver
+2024-02-04 20:33:00,266 INFO c.CoursesTest [main] Start driver
+2024-02-04 20:33:57,529 INFO c.CoursesTest [main] 10
+2024-02-04 20:33:57,640 INFO c.CoursesTest [main] Stop driver
+2024-02-04 20:36:52,681 INFO c.CoursesTest [main] Stop driver
+2024-02-04 20:37:00,049 INFO c.CoursesTest [main] Stop driver
+2024-02-04 20:37:23,439 INFO c.CoursesTest [main] Start driver
+2024-02-04 20:37:27,529 INFO c.CoursesTest [main] Waiting presence cards courses
+2024-02-04 20:37:28,577 INFO c.CoursesTest [main] Check count cards courses and assert count
+2024-02-04 20:37:36,328 INFO c.CoursesTest [main] Stop driver
+2024-02-04 20:56:19,011 INFO c.CoursesTest [main] Start driver
+2024-02-04 20:56:41,623 INFO c.CoursesTest [main] Stop driver
+2024-02-05 11:28:54,217 INFO c.CoursesTest [main] Start driver
+2024-02-05 11:29:05,495 INFO c.CoursesTest [main] Stop driver
+2024-02-05 11:32:03,844 INFO c.CoursesTest [main] Start driver
+2024-02-05 11:32:14,755 INFO c.CoursesTest [main] Stop driver
+2024-02-05 11:41:30,549 INFO c.CoursesTest [main] Start driver
+2024-02-05 11:42:53,872 INFO c.CoursesTest [main] Stop driver
+2024-02-05 11:47:17,731 INFO c.CoursesTest [main] Start driver
+2024-02-05 11:48:44,344 INFO c.CoursesTest [main] Stop driver
+2024-02-05 11:49:52,512 INFO c.CoursesTest [main] Start driver
+2024-02-05 11:50:50,662 INFO c.CoursesTest [main] Stop driver
+2024-02-05 11:58:37,450 INFO c.CoursesTest [main] Start driver
+2024-02-05 11:59:43,782 INFO c.CoursesTest [main] Stop driver
+2024-02-05 18:11:10,914 INFO p.PersonalAreaTest [main] Start driver
+2024-02-05 18:11:16,507 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-05 18:12:00,388 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-05 18:12:10,521 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-05 18:12:57,181 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-05 18:14:54,127 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-05 18:24:33,620 INFO p.PersonalAreaTest [main] Start driver
+2024-02-05 18:24:36,811 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-05 18:25:17,545 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-05 18:25:27,962 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-05 18:26:11,285 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-05 18:27:28,457 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-05 18:36:31,485 INFO p.PersonalAreaTest [main] Start driver
+2024-02-05 18:36:34,346 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-05 18:37:16,218 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-05 18:37:26,440 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-05 18:38:15,496 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-05 18:40:06,347 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-05 18:42:53,904 INFO p.PersonalAreaTest [main] Start driver
+2024-02-05 18:42:57,539 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-05 18:43:39,120 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-05 18:43:49,422 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-05 18:44:33,827 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-05 18:52:48,108 INFO p.PersonalAreaTest [main] Start driver
+2024-02-05 18:52:51,398 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-05 18:53:34,140 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-05 18:53:44,242 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-05 18:54:29,340 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-05 18:56:30,864 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-05 18:56:55,799 INFO p.PersonalAreaTest [main] Start driver
+2024-02-05 18:56:58,833 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-05 18:57:43,775 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-05 18:57:53,821 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-05 18:58:39,379 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-05 18:59:48,451 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-05 19:56:25,750 INFO p.PersonalAreaTest [main] Start driver
+2024-02-05 19:56:29,939 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-05 19:57:16,730 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-05 19:57:26,884 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-05 19:58:16,977 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-05 20:01:05,679 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-05 21:59:12,600 INFO p.PersonalAreaTest [main] Start driver
+2024-02-05 21:59:16,379 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-05 22:00:08,296 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-05 22:00:18,380 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-05 22:00:38,028 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-05 22:01:43,607 INFO p.PersonalAreaTest [main] Start driver
+2024-02-05 22:01:46,726 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-05 22:02:42,956 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-05 22:02:53,435 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-05 22:03:12,354 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-05 22:04:50,720 INFO p.PersonalAreaTest [main] Start driver
+2024-02-05 22:04:53,658 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-05 22:05:44,036 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-05 22:05:54,340 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-05 22:09:06,016 INFO p.PersonalAreaTest [main] Start driver
+2024-02-05 22:09:09,300 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-05 22:09:56,470 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-05 22:10:06,564 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-05 22:11:10,142 INFO p.PersonalAreaTest [main] Start driver
+2024-02-05 22:11:15,583 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-05 22:12:00,504 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-05 22:12:11,019 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-05 22:13:10,376 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-05 22:15:39,484 INFO p.PersonalAreaTest [main] Stop driver
