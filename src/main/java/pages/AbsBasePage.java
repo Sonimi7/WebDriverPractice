@@ -4,15 +4,18 @@ import common.AbsCommon;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
 import java.util.prefs.BackingStoreException;
 
 public abstract class AbsBasePage extends AbsCommon {
 
     private String BASE_URL = System.getProperty("base.url");
 
-    public AbsBasePage(WebDriver driver) {
+    private String path = "";
+
+    public AbsBasePage(WebDriver driver, String path) {
         super(driver);
-       // PageFactory.initElements(driver, this);
+        this.path = path.endsWith("/") ? path.substring(0, path.length() -1): path;
     }
 
     public void open() {
@@ -20,6 +23,13 @@ public abstract class AbsBasePage extends AbsCommon {
     }
 
     public void open(String path) {
-        driver.get(BASE_URL + path);
+        driver.get(BASE_URL + this.path);
     }
+
+    public void open(List<String> queryParams) {
+        String url = BASE_URL +this.path + "?" + String.join("&", queryParams);
+
+        driver.get(url);
+    }
+
 }

@@ -1,22 +1,25 @@
 package courses;
 
-import components.BreedingCourses;
+import pages.BreedingCourses;
 import components.Header;
+import data.cardsCourses.CoursesCategoryData;
 import factory.DriverFactory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import pages.DetailedCardCourse;
 import pages.MainPage;
 
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class CoursesTest {
+
+    private BreedingCourses breedingCourses = null;
 
     private Logger logger = (Logger) LogManager.getLogger(CoursesTest.class);
 
@@ -26,6 +29,12 @@ public class CoursesTest {
     public void init() {
         this.driver = new DriverFactory().create();
         logger.info("Start driver");
+
+        List<String> queryParams = new ArrayList<>();
+        queryParams.add(String.format("categories=%s", CoursesCategoryData.TESTING.name().toLowerCase()));
+
+        this.breedingCourses = new BreedingCourses(driver);
+        breedingCourses.open(queryParams);
     }
 
     @AfterEach
@@ -38,27 +47,24 @@ public class CoursesTest {
 
     @Test
     public void checkCountCourses() {
-        new MainPage(driver).open("/");
-
-        Header header = new Header(driver);
-       // header.moveLearningItemHeader();
-       // header.waitDropHeader();
-        header.clickItemTeastingHeader();
-
-        BreedingCourses courses = new BreedingCourses(driver);
-
-        logger.info("Waiting presence cards courses");
-        courses.waitListCardsCourses();
-
-        logger.info("Check count cards courses and assert count");
-        Assertions.assertEquals(courses.getListCardsCourses(), 10);
+        breedingCourses.cardsCoursesCountShouldBeSameAs(10);
     }
 
     @Test
-    public void checkInfDetailCardOfCourse() {
-        new MainPage(driver).open("/lessons/qa-engineer/");
+    public void checkDataCardCourse() throws IOException {
+        for(int i = 1; i< breedingCourses.getCardsCount(); i++) {
+            String expectedTitle = breedingCourses.getTitleCourseByIndex(i);
+            String expectedCourseDuration = breedingCourses.getCourseDuration(i);
 
-        Header header = new Header(driver);
-
+            breedingCourses.checkTitleCourseByIndex(i, expectedTitle);
+            breedingCourses.checkDescriptionCourseByIndex(i);
+            breedingCourses.checkCourseDuration(i, expectedCourseDuration);
+            breedingCourses.checkCourseFormat(i, "Онлайн");
+        }
+        /**вне цикла проверить клик
+         *
+        */
+        breedingCourses.clickRandomCardCourses();
+        DetailedCardCourse detailedCardCourse = new DetailedCardCourse(driver, "");
     }
 }

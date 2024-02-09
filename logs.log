@@ -291,3 +291,178 @@
 2024-02-05 22:12:11,019 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
 2024-02-05 22:13:10,376 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
 2024-02-05 22:15:39,484 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-05 22:41:44,237 INFO p.PersonalAreaTest [main] Start driver
+2024-02-05 22:41:47,431 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-05 22:42:27,358 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-05 22:42:37,378 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-05 22:43:03,177 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-05 22:44:17,554 INFO p.PersonalAreaTest [main] Add names and date birthday successful
+2024-02-05 22:44:54,381 INFO p.PersonalAreaTest [main] Add country and city birthday successful
+2024-02-05 22:44:57,082 INFO p.PersonalAreaTest [main] Add english level successful
+2024-02-05 22:44:59,068 INFO p.PersonalAreaTest [main] Relocate switch successful
+2024-02-05 22:44:59,481 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-06 21:05:29,315 INFO p.PersonalAreaTest [main] Start driver
+2024-02-06 21:05:32,940 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-06 21:06:15,822 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-06 21:06:25,842 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-06 21:06:54,615 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-06 21:07:54,678 INFO p.PersonalAreaTest [main] Add names and date birthday successful
+2024-02-06 21:08:06,261 INFO p.PersonalAreaTest [main] Add country and city birthday successful
+2024-02-06 21:08:07,942 INFO p.PersonalAreaTest [main] Add english level successful
+2024-02-06 21:08:08,938 INFO p.PersonalAreaTest [main] Relocate switch successful
+2024-02-06 21:08:19,167 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-06 21:16:34,813 INFO p.PersonalAreaTest [main] Start driver
+2024-02-06 21:16:38,035 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-06 21:17:20,701 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-06 21:17:31,163 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-06 21:17:56,963 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-06 21:18:42,706 INFO p.PersonalAreaTest [main] Add names and date birthday successful
+2024-02-06 21:18:50,388 INFO p.PersonalAreaTest [main] Add country and city birthday successful
+2024-02-06 21:18:51,460 INFO p.PersonalAreaTest [main] Add english level successful
+2024-02-06 21:18:52,424 INFO p.PersonalAreaTest [main] Relocate switch successful
+2024-02-06 21:18:52,640 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-06 22:28:27,823 INFO p.PersonalAreaTest [main] Start driver
+2024-02-06 22:28:31,164 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-06 22:29:14,252 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-06 22:29:24,516 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-06 22:29:51,680 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-06 22:30:47,412 INFO p.PersonalAreaTest [main] Add names and date birthday successful
+2024-02-06 22:30:57,775 INFO p.PersonalAreaTest [main] Add country and city birthday successful
+2024-02-06 22:30:58,972 INFO p.PersonalAreaTest [main] Add english level successful
+2024-02-06 22:31:00,193 INFO p.PersonalAreaTest [main] Relocate switch successful
+2024-02-06 22:31:10,606 INFO p.PersonalAreaTest [main] Add work format successful
+2024-02-06 22:31:14,429 INFO p.PersonalAreaTest [main] Add gender successful
+2024-02-06 22:31:14,998 INFO p.PersonalAreaTest [main] Add work information successful
+2024-02-06 22:31:15,920 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-06 23:04:01,325 INFO p.PersonalAreaTest [main] Start driver
+2024-02-06 23:04:04,669 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-06 23:04:43,958 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-06 23:04:54,005 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-06 23:05:18,087 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-06 23:05:58,529 INFO p.PersonalAreaTest [main] Clear fields successful
+2024-02-06 23:06:05,544 INFO p.PersonalAreaTest [main] Add names and date birthday successful
+2024-02-06 23:06:14,121 INFO p.PersonalAreaTest [main] Add country and city birthday successful
+2024-02-06 23:06:15,386 INFO p.PersonalAreaTest [main] Add english level successful
+2024-02-06 23:06:16,234 INFO p.PersonalAreaTest [main] Relocate switch successful
+2024-02-06 23:06:26,449 INFO p.PersonalAreaTest [main] Add work format successful
+2024-02-06 23:06:27,806 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-07 18:55:27,706 INFO p.PersonalAreaTest [main] Start driver
+2024-02-07 18:55:31,492 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-07 18:56:15,111 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-07 18:56:25,510 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-07 18:56:50,257 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-07 18:57:43,652 INFO p.PersonalAreaTest [main] Clear fields successful
+2024-02-07 18:57:51,035 INFO p.PersonalAreaTest [main] Add names and date birthday successful
+2024-02-07 18:57:57,972 INFO p.PersonalAreaTest [main] Add country and city birthday successful
+2024-02-07 18:57:59,149 INFO p.PersonalAreaTest [main] Add english level successful
+2024-02-07 18:58:00,147 INFO p.PersonalAreaTest [main] Relocate switch successful
+2024-02-07 18:58:10,243 INFO p.PersonalAreaTest [main] Add work format successful
+2024-02-07 18:58:15,655 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-07 19:02:10,616 INFO p.PersonalAreaTest [main] Start driver
+2024-02-07 19:02:14,147 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-07 19:02:54,426 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-07 19:03:04,452 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-07 19:03:29,360 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-07 19:04:17,024 INFO p.PersonalAreaTest [main] Clear fields successful
+2024-02-07 19:04:25,264 INFO p.PersonalAreaTest [main] Add names and date birthday successful
+2024-02-07 19:04:32,227 INFO p.PersonalAreaTest [main] Add country and city birthday successful
+2024-02-07 19:04:33,184 INFO p.PersonalAreaTest [main] Add english level successful
+2024-02-07 19:04:34,093 INFO p.PersonalAreaTest [main] Relocate switch successful
+2024-02-07 19:04:44,301 INFO p.PersonalAreaTest [main] Add work format successful
+2024-02-07 19:05:23,198 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-07 19:37:58,023 INFO p.PersonalAreaTest [main] Start driver
+2024-02-07 19:38:39,738 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-07 19:38:50,001 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-07 19:39:00,320 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-07 19:39:29,618 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-07 19:40:20,750 INFO p.PersonalAreaTest [main] Clear fields successful
+2024-02-07 19:40:29,097 INFO p.PersonalAreaTest [main] Add names and date birthday successful
+2024-02-07 19:40:40,604 INFO p.PersonalAreaTest [main] Add country and city birthday successful
+2024-02-07 19:40:42,234 INFO p.PersonalAreaTest [main] Add english level successful
+2024-02-07 19:40:43,554 INFO p.PersonalAreaTest [main] Relocate switch successful
+2024-02-07 19:40:53,886 INFO p.PersonalAreaTest [main] Add work format successful
+2024-02-07 19:42:36,309 INFO p.PersonalAreaTest [main] Add gender successful
+2024-02-07 19:42:38,580 INFO p.PersonalAreaTest [main] Add work information successful
+2024-02-07 19:43:49,724 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-07 19:48:39,253 INFO p.PersonalAreaTest [main] Start driver
+2024-02-07 19:48:42,526 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-07 19:49:27,156 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-07 19:49:37,572 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-07 19:50:02,168 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-07 19:50:46,379 INFO p.PersonalAreaTest [main] Clear fields successful
+2024-02-07 19:50:51,468 INFO p.PersonalAreaTest [main] Add names and date birthday successful
+2024-02-07 19:50:57,784 INFO p.PersonalAreaTest [main] Add country and city birthday successful
+2024-02-07 19:50:58,720 INFO p.PersonalAreaTest [main] Add english level successful
+2024-02-07 19:50:59,527 INFO p.PersonalAreaTest [main] Relocate switch successful
+2024-02-07 19:51:09,817 INFO p.PersonalAreaTest [main] Add work format successful
+2024-02-07 19:51:42,497 INFO p.PersonalAreaTest [main] Add gender successful
+2024-02-07 19:51:42,829 INFO p.PersonalAreaTest [main] Add work information successful
+2024-02-07 19:53:20,502 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-07 19:57:48,637 INFO p.PersonalAreaTest [main] Start driver
+2024-02-07 19:57:52,278 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-07 19:58:53,536 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-08 19:23:41,770 INFO c.CoursesTest [main] Start driver
+2024-02-08 19:23:45,357 INFO c.CoursesTest [main] Stop driver
+2024-02-08 19:25:20,680 INFO c.CoursesTest [main] Start driver
+2024-02-08 19:25:36,353 INFO c.CoursesTest [main] Stop driver
+2024-02-08 19:26:34,824 INFO c.CoursesTest [main] Start driver
+2024-02-08 19:29:30,738 INFO c.CoursesTest [main] Stop driver
+2024-02-08 19:38:26,263 INFO c.CoursesTest [main] Start driver
+2024-02-08 19:38:30,321 INFO c.CoursesTest [main] Stop driver
+2024-02-08 21:46:18,748 INFO c.CoursesTest [main] Start driver
+2024-02-08 21:46:22,942 INFO c.CoursesTest [main] Stop driver
+2024-02-08 21:47:18,650 INFO c.CoursesTest [main] Start driver
+2024-02-08 21:51:33,599 INFO c.CoursesTest [main] Stop driver
+2024-02-08 21:51:44,172 INFO c.CoursesTest [main] Start driver
+2024-02-08 21:52:46,564 INFO c.CoursesTest [main] Stop driver
+2024-02-08 21:52:56,841 INFO c.CoursesTest [main] Start driver
+2024-02-08 21:53:03,440 INFO c.CoursesTest [main] Stop driver
+2024-02-09 11:37:50,856 INFO p.PersonalAreaTest [main] Start driver
+2024-02-09 11:37:53,795 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-09 11:38:37,565 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-09 11:38:47,944 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-09 11:39:13,071 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-09 11:39:58,748 INFO p.PersonalAreaTest [main] Clear fields successful
+2024-02-09 11:40:09,763 INFO p.PersonalAreaTest [main] Add names and date birthday successful
+2024-02-09 11:40:19,594 INFO p.PersonalAreaTest [main] Add country and city birthday successful
+2024-02-09 11:40:20,354 INFO p.PersonalAreaTest [main] Add english level successful
+2024-02-09 11:40:21,203 INFO p.PersonalAreaTest [main] Relocate switch successful
+2024-02-09 11:40:33,389 INFO p.PersonalAreaTest [main] Add work format successful
+2024-02-09 11:40:38,146 INFO p.PersonalAreaTest [main] Add first communication method successful
+2024-02-09 11:40:40,179 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-09 14:17:47,827 INFO p.PersonalAreaTest [main] Start driver
+2024-02-09 14:17:51,666 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-09 14:18:33,842 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-09 14:18:43,892 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-09 14:19:10,981 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-09 14:19:58,670 INFO p.PersonalAreaTest [main] Clear fields successful
+2024-02-09 14:20:06,610 INFO p.PersonalAreaTest [main] Add names and date birthday successful
+2024-02-09 14:20:14,140 INFO p.PersonalAreaTest [main] Add country and city birthday successful
+2024-02-09 14:20:15,651 INFO p.PersonalAreaTest [main] Add english level successful
+2024-02-09 14:20:16,728 INFO p.PersonalAreaTest [main] Relocate switch successful
+2024-02-09 14:20:26,993 INFO p.PersonalAreaTest [main] Add work format successful
+2024-02-09 14:20:49,232 INFO p.PersonalAreaTest [main] Add first communication method successful
+2024-02-09 14:26:10,143 INFO p.PersonalAreaTest [main] Add gender successful
+2024-02-09 14:26:12,325 INFO p.PersonalAreaTest [main] Add work information successful
+2024-02-09 14:28:26,813 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-09 14:36:18,136 INFO p.PersonalAreaTest [main] Start driver
+2024-02-09 14:36:21,345 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-09 14:37:06,151 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-09 14:37:16,343 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-09 14:37:42,232 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-09 14:38:29,800 INFO p.PersonalAreaTest [main] Clear fields successful
+2024-02-09 14:38:36,012 INFO p.PersonalAreaTest [main] Add names and date birthday successful
+2024-02-09 14:38:42,974 INFO p.PersonalAreaTest [main] Add country and city birthday successful
+2024-02-09 14:38:43,793 INFO p.PersonalAreaTest [main] Add english level successful
+2024-02-09 14:38:44,401 INFO p.PersonalAreaTest [main] Relocate switch successful
+2024-02-09 14:38:54,878 INFO p.PersonalAreaTest [main] Add work format successful
+2024-02-09 14:38:58,280 INFO p.PersonalAreaTest [main] Add first communication method successful
+2024-02-09 14:39:12,831 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-09 18:27:18,628 INFO c.CoursesTest [main] Start driver
+2024-02-09 18:27:25,282 INFO c.CoursesTest [main] Stop driver
+2024-02-09 20:23:00,718 INFO c.CoursesTest [main] Start driver
+2024-02-09 20:23:50,736 INFO c.CoursesTest [main] Stop driver
+2024-02-09 20:38:32,236 INFO c.CoursesTest [main] Start driver
+2024-02-09 20:38:56,776 INFO c.CoursesTest [main] Stop driver
+2024-02-09 20:51:08,258 INFO c.CoursesTest [main] Start driver
+2024-02-09 20:54:06,958 INFO c.CoursesTest [main] Stop driver
