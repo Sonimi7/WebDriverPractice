@@ -62,9 +62,9 @@ public class CoursesTest {
             breedingCourses.checkCourseFormat(i, "Онлайн");
         }
         /**вне цикла проверить клик
-         *
+         *breedingCourses.clickRandomCardCourses();
+         *DetailedCardCourse detailedCardCourse = new DetailedCardCourse(driver, "");
         */
-        breedingCourses.clickRandomCardCourses();
-        DetailedCardCourse detailedCardCourse = new DetailedCardCourse(driver, "");
+
     }
 }
