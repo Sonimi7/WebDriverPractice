@@ -155,5 +155,7 @@ public class PersonalAreaTest {
        personalData.assertFieldsData(InputFieldData.BLOGNAME);
        personalData.assertFieldsData(InputFieldData.DATEOFBRTH);
 
+       personalData.checkFieldsDataIsNotEmpty();
+
    }
 }
