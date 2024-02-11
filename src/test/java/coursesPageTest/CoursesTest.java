@@ -1,7 +1,6 @@
-package courses;
+package coursesPageTest;
 
-import pages.BreedingCourses;
-import components.Header;
+import pages.BreedingCoursesPage;
 import data.cardsCourses.CoursesCategoryData;
 import factory.DriverFactory;
 import org.apache.logging.log4j.LogManager;
@@ -10,8 +9,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
-import pages.DetailedCardCourse;
-import pages.MainPage;
+import pages.DetailedCardCoursePage;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -19,7 +17,7 @@ import java.util.List;
 
 public class CoursesTest {
 
-    private BreedingCourses breedingCourses = null;
+    private BreedingCoursesPage breedingCourses = null;
 
     private Logger logger = (Logger) LogManager.getLogger(CoursesTest.class);
 
@@ -33,7 +31,7 @@ public class CoursesTest {
         List<String> queryParams = new ArrayList<>();
         queryParams.add(String.format("categories=%s", CoursesCategoryData.TESTING.name().toLowerCase()));
 
-        this.breedingCourses = new BreedingCourses(driver);
+        this.breedingCourses = new BreedingCoursesPage(driver);
         breedingCourses.open(queryParams);
     }
 
@@ -61,10 +59,10 @@ public class CoursesTest {
             breedingCourses.checkCourseDuration(i, expectedCourseDuration);
             breedingCourses.checkCourseFormat(i, "Онлайн");
         }
-        /**вне цикла проверить клик
-         *breedingCourses.clickRandomCardCourses();
-         *DetailedCardCourse detailedCardCourse = new DetailedCardCourse(driver, "");
-        */
 
+         String expectedResult = breedingCourses.clickRandomCardCourses();
+         DetailedCardCoursePage detailedCardCoursePage = new DetailedCardCoursePage(driver, "");
+         detailedCardCoursePage.checkTitleCourse(expectedResult);
+         detailedCardCoursePage.checkDetailsCardCourse("Онлайн");
     }
 }

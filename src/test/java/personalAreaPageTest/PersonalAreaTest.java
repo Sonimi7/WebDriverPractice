@@ -1,4 +1,4 @@
-package personalArea;
+package personalAreaPageTest;
 
 import com.github.javafaker.Faker;
 import components.Header;

@@ -39,7 +39,7 @@ public class WaitTools {
         return  this.waitForCondition(ExpectedConditions.elementToBeClickable(locator));
     }
 
-    public boolean waitElementVisibilityOf(By locator) {
-        return this.waitForCondition(ExpectedConditions.visibilityOf((WebElement) locator));
+    public boolean waitElementVisible(WebElement element) {
+        return this.waitForCondition(ExpectedConditions.visibilityOf((WebElement) element));
     }
 }

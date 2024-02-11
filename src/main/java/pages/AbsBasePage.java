@@ -16,6 +16,7 @@ public abstract class AbsBasePage extends AbsCommon {
     public AbsBasePage(WebDriver driver, String path) {
         super(driver);
         this.path = path.endsWith("/") ? path.substring(0, path.length() -1): path;
+        System.out.println("BASE_URL: " + BASE_URL);
     }
 
     public void open() {

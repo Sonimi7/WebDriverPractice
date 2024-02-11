@@ -11,14 +11,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.io.IOException;
-import java.time.Duration;
 import java.util.List;
+import java.util.Map;
 
-public class BreedingCourses extends AbsBasePage {
+public class BreedingCoursesPage extends AbsBasePage {
 
-    public BreedingCourses(WebDriver driver) {
+    public BreedingCoursesPage(WebDriver driver) {
         super(driver, "/catalog/courses");
     }
+    public String expectedTitleCourse;
+    public Map<String, String> courseDetails;
 
     @FindBy(xpath = "//section//div[not(@style)]/a[contains(@href, '/lessons/')][.//h6]")
     private List<WebElement> cardsCourses;
@@ -29,12 +31,20 @@ public class BreedingCourses extends AbsBasePage {
         Assertions.assertEquals(
                 count,
                 cardsCourses.size(),
-                String.format("Count cards courses should be $d", count)
+                String.format("Count cards courses should be %d", count)
         );
     }
 
-    public void clickRandomCardCourses() {
-        faker.options().nextElement(cardsCourses).click();
+    public String clickRandomCardCourses() {
+        String expectedTitleCourse = null;
+        if(cardsCourses.size() > 0) {
+            WebElement randomCardCourse = faker.options().nextElement(cardsCourses);
+            expectedTitleCourse = randomCardCourse.findElement(By.xpath(".//h6")).getText();
+            randomCardCourse.click();
+        } else {
+            System.out.println("Список курсов пустой");
+        }
+        return expectedTitleCourse;
     }
 
     public int getCardsCount() {
@@ -73,13 +83,13 @@ public class BreedingCourses extends AbsBasePage {
     }
 
     public void checkCourseDuration(int index, String expectedDuration) throws IOException {
-        Element titleCourserPageElement = getDomPage(index)
+        Element titleCoursePageElement = getDomPage(index)
                 .selectXpath("//div/following-sibling::p[contains(text(), 'месяц')]")
-                .get(0);
+                .get(0);//получаем длительность из деталки
 
         Assertions.assertEquals(expectedDuration
                 .replaceAll("^.*·\\s", ""),
-                titleCourserPageElement.text(), "Duration courses does not match");
+                titleCoursePageElement.text(), "Duration courses does not match");
     }
 
     public void checkCourseFormat(int index, String format) throws  IOException {
