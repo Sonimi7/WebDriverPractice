@@ -19,8 +19,6 @@ public class BreedingCoursesPage extends AbsBasePage {
     public BreedingCoursesPage(WebDriver driver) {
         super(driver, "/catalog/courses");
     }
-    public String expectedTitleCourse;
-    public Map<String, String> courseDetails;
 
     @FindBy(xpath = "//section//div[not(@style)]/a[contains(@href, '/lessons/')][.//h6]")
     private List<WebElement> cardsCourses;

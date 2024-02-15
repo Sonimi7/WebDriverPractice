@@ -512,3 +512,19 @@
 2024-02-11 23:29:37,702 INFO c.CoursesTest [main] Start driver
 2024-02-11 23:30:08,840 INFO c.CoursesTest [main] Start driver
 2024-02-11 23:30:35,787 INFO c.CoursesTest [main] Stop driver
+2024-02-14 18:32:19,220 INFO p.PersonalAreaTest [main] Start driver
+2024-02-14 18:32:22,264 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-14 18:33:06,206 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-14 18:33:16,435 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-14 18:33:43,904 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-15 10:11:56,869 INFO p.PersonalAreaTest [main] Start driver
+2024-02-15 10:12:00,159 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-15 10:12:46,174 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-15 10:12:56,324 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-15 10:13:24,142 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
+2024-02-15 10:13:47,535 INFO p.PersonalAreaTest [main] Stop driver
+2024-02-15 10:14:06,093 INFO p.PersonalAreaTest [main] Start driver
+2024-02-15 10:14:08,795 INFO p.PersonalAreaTest [main] Waiting marker tel
+2024-02-15 10:14:52,144 INFO p.PersonalAreaTest [main] Check status auth popup
+2024-02-15 10:15:02,235 INFO p.PersonalAreaTest [main] Start of test logic. Login in LK
+2024-02-15 10:15:27,226 INFO p.PersonalAreaTest [main] Login in LK successful. Switch personal data page
