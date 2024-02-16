@@ -6,9 +6,11 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.io.IOException;
 import java.util.List;
@@ -38,7 +40,20 @@ public class BreedingCoursesPage extends AbsBasePage {
         if(cardsCourses.size() > 0) {
             WebElement randomCardCourse = faker.options().nextElement(cardsCourses);
             expectedTitleCourse = randomCardCourse.findElement(By.xpath(".//h6")).getText();
-            randomCardCourse.click();
+
+
+            try {
+                randomCardCourse.click();
+            } catch (StaleElementReferenceException e) {
+                // Повторное нахождение элемента по тексту перед действием
+                randomCardCourse = driver.findElement(
+                        By.xpath("//section//div[not(@style)]/a[contains(@href, '/lessons/')]/h6/div[contains(text(), '" + expectedTitleCourse + "')]"));
+                //section//div[not(@style)]/a[contains(@href, '/lessons/')]/h6/div[contains(text(), 'Python QA Engineer')]
+                randomCardCourse.click();
+            }
+
+
+            //randomCardCourse.click();
         } else {
             System.out.println("Список курсов пустой");
         }

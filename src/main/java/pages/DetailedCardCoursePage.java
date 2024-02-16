@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class DetailedCardCoursePage extends AbsBasePage {
 
@@ -12,28 +13,34 @@ public class DetailedCardCoursePage extends AbsBasePage {
         super(driver, String.format("/lessons/%s", coursesPath));
     }
 
-    @FindBy(xpath = "//h1")
+    @FindBy(xpath = "//h1[contains(text(), '')]")
     private WebElement titleCardCourse;
 
     @FindBy(xpath = "//div/following-sibling::p[contains(text(), 'месяц')]")
     private WebElement durationCourse;
 
-    @FindBy(css = "div.sc-1og4wiw-0.sc-s2pydo-3.gaEufI.dZDxRw")
-    private String descriptionCardCourseSelector;
+    @FindBy(xpath = "//h1/following-sibling::div[contains(text(), '')]/p")
+    private WebElement descriptionCardCourseLocator;
 
-
-    public void checkTitleCourse(String expectedResult) {
+    /** В методе проверки названия курса в переменной result каким то образом записывается слово Каталог
+    как это происходит и как это исправить не понимаю
+    **/
+    public void checkTitleCourse(String expectedTitleCourse) {
         String result = titleCardCourse.getText();
-        Assertions.assertEquals(expectedResult, result);
+        Assertions.assertEquals(expectedTitleCourse, result);
     }
 
+    /** В методе проверки описания descriptionCardCourseLocator говорит, что нет такого локатора, но это ложь, он есть
+     * на странице в единственном экземпляре
+    **/
     private DetailedCardCoursePage checkDescriptionCourseIsNotEmpty() {
-       Assertions.assertFalse($(descriptionCardCourseSelector).getText().isEmpty());
+        String descriptionCardCourse = descriptionCardCourseLocator.getText();
+        Assertions.assertFalse(descriptionCardCourse.isEmpty());
         return this;
     }
 
     private DetailedCardCoursePage checkDurationCourseIsNotEmpty() {
-        Assertions.assertFalse($((By) durationCourse).getText().isEmpty());
+        Assertions.assertFalse(durationCourse.getText().isEmpty());
         return this;
     }
 

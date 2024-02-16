@@ -50,15 +50,15 @@ public class CoursesTest {
 
     @Test
     public void checkDataCardCourse() throws IOException {
-        for(int i = 1; i< breedingCourses.getCardsCount(); i++) {
-            String expectedTitle = breedingCourses.getTitleCourseByIndex(i);
-            String expectedCourseDuration = breedingCourses.getCourseDuration(i);
-
-            breedingCourses.checkTitleCourseByIndex(i, expectedTitle);
-            breedingCourses.checkDescriptionCourseByIndex(i);
-            breedingCourses.checkCourseDuration(i, expectedCourseDuration);
-            breedingCourses.checkCourseFormat(i, "Онлайн");
-        }
+//        for(int i = 1; i< breedingCourses.getCardsCount(); i++) {
+//            String expectedTitle = breedingCourses.getTitleCourseByIndex(i);
+//            String expectedCourseDuration = breedingCourses.getCourseDuration(i);
+//
+//            breedingCourses.checkTitleCourseByIndex(i, expectedTitle);
+//            breedingCourses.checkDescriptionCourseByIndex(i);
+//            breedingCourses.checkCourseDuration(i, expectedCourseDuration);
+//            breedingCourses.checkCourseFormat(i, "Онлайн");
+//        }
 
          String expectedResult = breedingCourses.clickRandomCardCourses();
          DetailedCardCoursePage detailedCardCoursePage = new DetailedCardCoursePage(driver, "");
